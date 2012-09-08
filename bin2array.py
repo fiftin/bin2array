@@ -30,6 +30,4 @@ for x in inputData:
         outputStr += '\n'
         n = 0
 
-outputStr = "new byte[] {\n" + outputStr + "};"
-
 outputFile.write(outputStr)
