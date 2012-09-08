@@ -27,9 +27,9 @@ for x in inputData:
     outputStr += str(ord(x)).rjust(3) + ", "
     n+=1
     if n >= nInLine:
-        outputStr += '\r\n'
+        outputStr += '\n'
         n = 0
 
-outputStr = "new byte[] {\n\r" + outputStr + "};"
+outputStr = "new byte[] {\n" + outputStr + "};"
 
 outputFile.write(outputStr)
