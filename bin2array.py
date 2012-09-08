@@ -1,6 +1,6 @@
-﻿"""
-Использование: bin2cs_array <source_bin_file_name> <desc_cs_file_name>
-Данные бинарного файла source_bin_file_name преобразует в массив байт на C# и сохранает его в 
+"""
+Использование: bin2array <source_bin_file_name> <desc_file_name>
+Данные бинарного файла source_bin_file_name преобразует в массив байт в виде cv и сохранает его в 
 файл desc_cs_file_name.
 """
 
@@ -31,3 +31,4 @@ for x in inputData:
         n = 0
 
 outputFile.write(outputStr)
+outputFile.close()
