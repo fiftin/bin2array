@@ -25,7 +25,7 @@ outputStr = ''
 n = 0
 for x in inputData:
     outputStr += str(ord(x)).rjust(3) + ", "
-    n+=1
+    n += 1
     if n >= nInLine:
         outputStr += '\n'
         n = 0
